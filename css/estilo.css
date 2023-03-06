@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    height: 15vh;
+    background-color: pink;
+    bottom: 20%;
+}
+
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 200%;
+}
+
+li{
+    display: inline-block;
+    margin-left: 50px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+ul{
+    float: left;
+    font-size: 200%;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    width:1200px;
+    height: 400px;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+
+}
+.img1{
+    margin-right: 50px;
+}
+
+.footer{
+    background-color: lightcoral;
+    padding: 1em 0;
+    text-align: center;
+    bottom: 0;;
+}
+
+.tienda{
+    color:chartreuse;
+    font-family: cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+.categorias{
+    color:crimson;
+    font-family: cursive;
+    font-size: 2rem;
+    text-align: center;
+}
